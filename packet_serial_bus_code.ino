@@ -14,11 +14,11 @@ void setup() {
 void loop() {
   roboclaw.ForwardM1(address1, 64);
   delay(2000);
-  roboclaw.ForwardM1(address1, 128);
+  roboclaw.ForwardM1(address1, 0);
   delay(2000);
   roboclaw.ForwardM1(address2, 64);
   delay(2000);
-  roboclaw.ForwardM1(address2, 128);
+  roboclaw.ForwardM1(address2, 0);
   delay(2000);
 
 }
